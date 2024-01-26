@@ -1,0 +1,1099 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Font1";
+    src: url("fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Font2";
+    src: url("fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Font3";
+    src: url("fonts/outfit/");
+}
+
+body {
+    background-color: rgb(233, 221, 208);
+}
+
+#background {
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 280px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#omelette_img {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 715px;
+    height: 350px;
+}
+
+#Heading_1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Font1";
+    margin-left: 30px;
+}
+
+.text_1 {
+    font-family: "Font2";
+    margin-left: 30px;
+    color: black;
+    margin-right: 20px;
+}
+
+#div_1 {
+    background-color: rgb(252, 245, 252);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding: 25px 30px 30px;
+}
+
+#Heading_2 {
+    font-family: "Font2";
+    color: purple;
+}
+
+#ul_1 {
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: "Font2";
+}
+
+.bold_1 {
+    padding-left: 23px;
+}
+
+.li_1 {
+    padding-top: 15px;
+}
+
+#div_2 {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.Heading_3 {
+    font-family: "Font1";
+    color: brown;
+    font-size: 25px;
+}
+
+#ul_2 {
+    margin-top: 5px;
+}
+
+.li_2 {
+    padding-top: 15px;
+    margin-left: 25px;
+    padding-left: 20px;
+    font-family: "Font2";
+}
+
+#hr {
+    margin: 30px 40px 30px 30px;
+}
+
+#div_3 {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+#ol_1 {
+    margin-top: 5px;
+}
+
+.li_3 {
+    padding-top: 15px;
+    margin-left: 25px;
+    padding-left: 20px;
+    font-family: "Font2";
+}
+
+#ol_1 li::marker {
+    color: brown;
+    font-family: "Roboto";
+}
+
+#div_4 {
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+#tab_1 {
+    margin-top: 20px;
+    margin-right: 10px;
+    border-collapse: collapse;
+}
+
+.tr_1 {
+    border-bottom: 1px solid black;
+}
+
+#tr_1_last {
+    border-bottom: none;
+}
+
+.th_1 {
+    padding-left: 300px;
+    padding-right: 245px;
+    padding-top: 10px;
+    color: brown;
+    font-family: "Font2";
+    padding-bottom: 10px;
+}
+
+.td_1 {
+    font-family: "Font2";
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+@media (280px <=width <=380px) {
+    #background {
+        margin: 0px 0px 0px 0px;
+        padding-right: 380px;
+    }
+
+    #omelette_img {
+        margin: 0px 0px 0px 0px;
+        width: 380px;
+        height: 190px;
+        border-radius: 0px;
+    }
+
+    #Heading_1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .text_1 {
+        margin-left: 20px;
+        margin-right: 50px;
+        width: 340px;
+    }
+
+    #div_1 {
+        margin-left: 18px;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 15px 20px 20px;
+        width: 300px;
+    }
+
+    #ul_1 {
+        padding-left: 20px;
+        font-size: 15px;
+        font-family: "Font2";
+    }
+
+    .bold_1 {
+        padding-left: 12px;
+    }
+
+    #div_2 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 300px;
+    }
+
+    .Heading_3 {
+        font-size: 25px;
+    }
+
+    .li_2 {
+        padding-top: 12px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #hr {
+        margin: 30px 20px 25px 20px;
+        width: 340px;
+    }
+
+    #div_3 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 340px;
+    }
+
+    .li_3 {
+        padding-top: 15px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #div_4 {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 340px;
+    }
+
+    #tab_1 {
+        margin-top: 20px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+
+    .th_1 {
+        padding-left: 140px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        font-family: "Font2";
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 280px;
+    }
+
+    .attribution a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (380px <=width <=480px) {
+    #background {
+        margin: 0px 0px 0px 0px;
+        padding-right: 480px;
+    }
+
+    #omelette_img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        width: 480px;
+        height: 240px;
+    }
+
+    #Heading_1 {
+        margin-left: 20px;
+        width: 450px;
+    }
+
+    .text_1 {
+        margin-left: 20px;
+        margin-right: 40px;
+        width: 430px;
+    }
+
+    #div_1 {
+        margin-left: 18px;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 15px 20px 20px;
+        width: 400px;
+    }
+
+    #ul_1 {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .bold_1 {
+        padding-left: 12px;
+    }
+
+    #div_2 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 450px;
+    }
+
+    .Heading_3 {
+        font-size: 25px;
+    }
+
+    .li_2 {
+        padding-top: 12px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #hr {
+        margin: 30px 20px 25px 20px;
+        width: 440px;
+    }
+
+    #div_3 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 440px;
+    }
+
+    .li_3 {
+        padding-top: 15px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #div_4 {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 440px;
+    }
+
+    #tab_1 {
+        margin-top: 20px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 280px;
+    }
+
+    .attribution a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (480px <=width <=580px) {
+    #background {
+        margin: 0px 0px 0px 0px;
+        padding-right: 570px;
+    }
+
+    #omelette_img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        width: 570px;
+        height: 280px;
+    }
+
+    #Heading_1 {
+        margin-left: 20px;
+        width: 450px;
+    }
+
+    .text_1 {
+        margin-left: 20px;
+        margin-right: 40px;
+        width: 550px;
+    }
+
+    #div_1 {
+        margin-left: 18px;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 15px 20px 20px;
+        width: 490px;
+    }
+
+    #ul_1 {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .bold_1 {
+        padding-left: 12px;
+    }
+
+    #div_2 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 530px;
+    }
+
+    .Heading_3 {
+        font-size: 25px;
+    }
+
+    .li_2 {
+        padding-top: 12px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #hr {
+        margin: 30px 20px 25px 20px;
+        width: 530px;
+    }
+
+    #div_3 {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 520px;
+    }
+
+    .li_3 {
+        padding-top: 15px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #div_4 {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 530px;
+    }
+
+    #tab_1 {
+        margin-top: 20px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+
+    .th_1 {
+        padding-left: 260px;
+        padding-right: 115px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 450px;
+    }
+
+    .attribution a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+@media (580px <=width <=680px) {
+    #background {
+        margin: 0px 0px 0px 0px;
+        padding-right: 680px;
+    }
+
+    #omelette_img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        width: 680px;
+        height: 340px;
+    }
+
+    #Heading_1 {
+        margin-left: 30px;
+        width: 600px;
+    }
+
+    .text_1 {
+        margin-left: 30px;
+        margin-right: 40px;
+        width: 620px;
+    }
+
+    #div_1 {
+        margin-left: 27px;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 15px 20px 20px;
+        width: 580px;
+    }
+
+    #ul_1 {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .bold_1 {
+        padding-left: 12px;
+    }
+
+    #div_2 {
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 580px;
+    }
+
+    .Heading_3 {
+        font-size: 25px;
+    }
+
+    .li_2 {
+        padding-top: 12px;
+        margin-left: 30px;
+        padding-left: 15px;
+    }
+
+    #hr {
+        margin: 30px 30px 25px 30px;
+        width: 610px;
+    }
+
+    #div_3 {
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 610px;
+    }
+
+    .li_3 {
+        padding-top: 15px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    #div_4 {
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        width: 610px;
+    }
+
+    #tab_1 {
+        margin-top: 20px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+
+    .th_1 {
+        padding-left: 280px;
+        padding-right: 180px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 60px;
+        width: 570px;
+    }
+
+    .attribution a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (680px <=width <=720px) {
+    #background {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #omelette_img {
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        width: 540px;
+        height: 260px;
+    }
+
+    #Heading_1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    .text_1 {
+        font-family: "Font2";
+        margin-left: 30px;
+        color: black;
+        margin-right: 20px;
+    }
+
+    #div_1 {
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 30px 30px 30px 30px;
+    }
+
+    #Heading_2 {
+        font-family: "Font2";
+    }
+
+    #ul_1 {
+        padding-left: 25px;
+        font-size: 17px;
+    }
+
+    #div_2 {
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    #div_4 {
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 600px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        padding-right: 15px;
+    }
+
+}
+
+@media (720px <=width <=750px) {
+    #background {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #omelette_img {
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        width: 530px;
+        height: 260px;
+    }
+
+    #Heading_1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    .text_1 {
+        font-family: "Font2";
+        margin-left: 30px;
+        color: black;
+        margin-right: 20px;
+    }
+
+    #div_1 {
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 30px 30px 30px 30px;
+    }
+
+    #Heading_2 {
+        font-family: "Font2";
+    }
+
+    #ul_1 {
+        padding-left: 25px;
+        font-size: 17px;
+    }
+
+    #div_2 {
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    #hr {
+        margin: 30px 35px 30px 30px;
+
+    }
+
+    #div_4 {
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-right: 40px;
+        width: 600px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .td_1 {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .attribution {
+        padding-right: 15px;
+    }
+
+}
+
+@media (750px <=width <=780px) {
+    #background {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    #omelette_img {
+        width: 520px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (780px <=width <=800px) {
+    #background {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    #omelette_img {
+        width: 510px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (800px <=width <=820px) {
+    #background {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    #omelette_img {
+        width: 530px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 140px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (820px <=width <=840px) {
+    #background {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    #omelette_img {
+        width: 510px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (840px <=width <=860px) {
+    #background {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+
+    #omelette_img {
+        width: 520px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 145px;
+    }
+
+}
+
+@media (860px <=width <=880px) {
+    #background {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    #omelette_img {
+        width: 530px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 155px;
+    }
+
+}
+
+@media (880px <=width <=900px) {
+    #background {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+
+    #omelette_img {
+        width: 540px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 155px;
+    }
+
+}
+
+@media (900px <=width <=920px) {
+    #background {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    #omelette_img {
+        width: 540px;
+        height: 260px;
+    }
+
+    .th_1 {
+        padding-left: 220px;
+        padding-right: 155px;
+    }
+
+}
+
+@media (1000px <=width <=1020px) {
+    #background {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    #omelette_img {
+        width: 590px;
+        height: 280px;
+    }
+
+    .text_1 {
+        margin-right: 30px;
+    }
+
+    .th_1 {
+        padding-left: 240px;
+        padding-right: 180px;
+    }
+
+}
+
+@media (1020px <=width <=1040px) {
+    #background {
+        margin-left: 190px;
+        margin-right: 180px;
+    }
+
+    #omelette_img {
+        width: 580px;
+        height: 280px;
+    }
+
+    .text_1 {
+        margin-right: 30px;
+    }
+
+    .th_1 {
+        padding-left: 240px;
+        padding-right: 180px;
+    }
+}
+
+@media (3840px <=width<=3845px) {
+    #background {
+        margin-left: 1000px;
+        margin-right: 1000px;
+        border-radius: 50px;
+    }
+    
+    #Heading_1 {
+        margin-left: 80px;
+    }
+
+    #omelette_img {
+        margin-left: 80px;
+        border-radius: 50px;
+        /* padding-right: 50px; */
+        margin-top: 50px;
+        width: 1650px;
+        height: 680px;
+    }
+
+    .text_1 {
+        margin-left: 80px;
+        margin-right: 30px;
+    }
+
+    #div_1 {
+        border-radius: 30px;
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-right: 80px;
+        padding: 50px 60px 60px;
+    }
+    
+    .bold_1 {
+        padding-left: 30px;
+    }
+    
+    .li_1 {
+        padding-top: 15px;
+    }
+    
+    #div_2 {
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+    
+    .Heading_3 {
+        font-family: "Font1";
+        color: brown;
+        font-size: 25px;
+    }
+    
+    #ul_2 {
+        margin-top: 5px;
+    }
+    
+    .li_2 {
+        padding-top: 15px;
+        margin-left: 25px;
+        padding-left: 20px;
+        font-family: "Font2";
+    }
+    
+    #hr {
+        margin: 80px 80px 80px 80px;
+    }
+    
+    #div_3 {
+        margin-left: 80px;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    
+    #ol_1 {
+        margin-top: 5px;
+    }
+    
+    .li_3 {
+        padding-top: 15px;
+        margin-left: 25px;
+        padding-left: 20px;
+        font-family: "Font2";
+    }
+    
+    #div_4 {
+        margin-left: 80px;
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+    
+    #tab_1 {
+        margin-top: 20px;
+        margin-right: 10px;
+        border-collapse: collapse;
+    }
+    .td_1 {
+        padding-left: 150px;
+        padding-right: 0px;
+    }
+    
+    .th_1 {
+        padding-left: 700px;
+        padding-right: 700px;
+    }
+
+}
